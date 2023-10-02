@@ -1,0 +1,68 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 900px;
+    height: 750px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.container #logo {
+    width: 175px;
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #00DD00;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #00DD00;
+    margin: 50px;
+    box-sizing: border-box;
+}
+
+.scooter {
+    color: white;
+    padding: 20px 60px 10px;
+}
+
+.scooter .model {
+    font-size: 20px;
+}
+
+.scooter .charge {
+    height: 30px;
+    border-radius: 10px;
+}
+
+.scooter .charge#Gino22 {
+    background: #F5B453;
+    width: 50%;
+}
+
+.scooter .charge#Mike24 {
+    background: #1EC31E;
+    width: 80%;
+}
+
+.scooter .charge#Fede154 {
+    background: #dd1515;
+    width: 20%;
+}
